@@ -208,11 +208,6 @@ Add-ons are distributed as Jekyll plugins. Just download any desired `.rb` file 
 
 ### Buttons (button.rb)
 Adds a tag to simplify insertion of buttons:
-```
-{% button red|https://www.example.com/|/assets/img/icons/cog.svg %}
-Download binary
-{% endbutton %}
-```
 
 ## 🤝 Contributing
  

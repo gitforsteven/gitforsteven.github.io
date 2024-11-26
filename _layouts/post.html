@@ -29,6 +29,17 @@ layout: default
   </header>
 
   <div class="container">
+    
+    <ul>
+      {% for category in site.categories %}
+        <li>
+          <a href="/categories/{{ category[0] | slugify }}/">
+            {{ category[0] }}
+          </a> ({{ category[1].size }})
+        </li>
+      {% endfor %}
+    </ul>
+
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
